@@ -85,17 +85,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/BuildingAwesomeCommand-LineApplicationsWithPython.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/BuildAwesomeCommand-LineApplicationsWithPython.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/BuildingAwesomeCommand-LineApplicationsWithPython.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/BuildAwesomeCommand-LineApplicationsWithPython.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/BuildingAwesomeCommand-LineApplicationsWithPython"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/BuildingAwesomeCommand-LineApplicationsWithPython"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/BuildAwesomeCommand-LineApplicationsWithPython"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/BuildAwesomeCommand-LineApplicationsWithPython"
 	@echo "# devhelp"
 
 epub:
